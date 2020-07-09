@@ -1,3 +1,4 @@
+\[readme work in progress\]
 # Training / Testing BERT QA models on DocVQA
 For finetuning pretrained BERT models, we use [simpletransformers](https://github.com/ThilinaRajapakse/simpletransformers) which in turn is based on [transformers](https://github.com/huggingface/transformers) package.
 
