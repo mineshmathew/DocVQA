@@ -13,7 +13,7 @@ We dont use fp16 while finetuning BERT models in our experiments. You need not i
 
 
 ### Data in SQuAD format
-DocVQA is annotated in the same way as reading comprehension datasets like [SQuAD](https://arxiv.org/abs/1606.05250)   are annotated. SQuAD for example
+DocVQA is NOT annotated in the same way as reading comprehension datasets like [SQuAD](https://arxiv.org/abs/1606.05250)   are annotated. SQuAD for example
 treats reading comprehension as an extractive QA problem where ground truth answers are  marked as a 'span' of the context paragraph.\
 
 So to benchmark BERT QA model on DocVQA, we approximate the annotated answers in DocVQA train split as span of the OCR transcription of the given document image.
