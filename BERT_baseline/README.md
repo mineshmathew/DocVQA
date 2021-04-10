@@ -27,6 +27,6 @@ See the script ```finetune_pretrained_model.py```
 
 ### Make predictions using an existing BERT QA model
 See the script ```test_model.py```
-If you want to make predictions using a QA model already finetuned on DocVQA. Please download a model which is a  ```bert-large-uncased-whole-word-masking-finetuned-squad```   from [transformers pretrained moels zoo](https://huggingface.co/transformers/pretrained_models.html), and finetune it on  DocVQA train split. This model, based on our experiments yield 0.665 ANLS on the test split of DocVQA.\
+If you want to make predictions using a QA model already finetuned on DocVQA. Please download a model which is a  ```bert-large-uncased-whole-word-masking-finetuned-squad```   from [transformers pretrained moels zoo](https://huggingface.co/transformers/pretrained_models.html), and finetuned  on  DocVQA train split. This model, based on our experiments yield 0.665 ANLS on the test split of DocVQA.\
 Download the model from [here](https://iiitaphyd-my.sharepoint.com/:u:/g/personal/minesh_mathew_research_iiit_ac_in/ERcV6gGX1OVBgy2ohwnRLLoBKCefBkhP_6CWfYiasVuOKQ?e=gkWQlO)
 
